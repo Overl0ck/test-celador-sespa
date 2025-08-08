@@ -1,0 +1,552 @@
+[
+  {
+    "pregunta": "¿Qué tipo de sujeción física requiere siempre prescripción médica por parte del facultativo responsable?",
+    "opciones": [
+      "Cualquier sujeción mecánica prolongada",
+      "Solo la sujeción a la cama en pacientes geriátricos",
+      "La sujeción en pacientes psiquiátricos únicamente",
+      "Ninguna sujeción requiere prescripción"
+    ],
+    "correcta": 0,
+    "explicacion": "Toda sujeción física, especialmente si es prolongada o restrictiva, requiere prescripción médica y debe quedar registrada en la historia clínica del paciente."
+  },
+  {
+    "pregunta": "Según la Ley 14/1986 General de Sanidad, ¿quién es el responsable de la dirección de las actividades sanitarias en el conjunto del Sistema Nacional de Salud?",
+    "opciones": [
+      "El Ministerio de Política Territorial",
+      "Las Comunidades Autónomas",
+      "El Ministerio de Sanidad",
+      "Los Colegios Oficiales de Médicos"
+    ],
+    "correcta": 2,
+    "explicacion": "El Ministerio de Sanidad dirige y coordina las actividades sanitarias en el conjunto del SNS, aunque las competencias estén transferidas a las CCAA."
+  },
+  {
+    "pregunta": "¿Cuál es la primera medida que debe adoptar el celador si encuentra un incendio en su planta de hospitalización?",
+    "opciones": [
+      "Buscar un extintor y apagar el fuego",
+      "Avisar inmediatamente al personal sanitario y activar el protocolo de emergencias",
+      "Evacuar a los pacientes por su cuenta",
+      "Abrir todas las ventanas para ventilar"
+    ],
+    "correcta": 1,
+    "explicacion": "El celador debe seguir el protocolo establecido: avisar, activar alarma y colaborar con el personal sanitario. No debe actuar por cuenta propia sin coordinación."
+  },
+  {
+    "pregunta": "¿En qué casos puede el celador acceder a datos clínicos del paciente?",
+    "opciones": [
+      "Siempre que los necesite para mejorar la atención",
+      "Nunca, ya que no es personal sanitario",
+      "Solo si el facultativo lo autoriza por escrito",
+      "Solo si lo requiere su función y bajo supervisión"
+    ],
+    "correcta": 3,
+    "explicacion": "El celador solo puede acceder a información clínica si es imprescindible para su tarea concreta y bajo supervisión. El acceso general está restringido."
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes principios forma parte del Estatuto Marco del personal estatutario de los servicios de salud?",
+    "opciones": [
+      "El principio de militancia sindical obligatoria",
+      "El principio de libre designación en todos los puestos",
+      "El principio de igualdad, mérito y capacidad",
+      "El principio de rotación anual obligatoria"
+    ],
+    "correcta": 2,
+    "explicacion": "El Estatuto Marco establece como base de acceso y carrera profesional los principios de igualdad, mérito y capacidad."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #6",
+    "opciones": [
+      "Opción A6",
+      "Opción B6",
+      "Opción C6",
+      "Opción D6"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #6, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #7",
+    "opciones": [
+      "Opción A7",
+      "Opción B7",
+      "Opción C7",
+      "Opción D7"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #7, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #8",
+    "opciones": [
+      "Opción A8",
+      "Opción B8",
+      "Opción C8",
+      "Opción D8"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #8, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #9",
+    "opciones": [
+      "Opción A9",
+      "Opción B9",
+      "Opción C9",
+      "Opción D9"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #9, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #10",
+    "opciones": [
+      "Opción A10",
+      "Opción B10",
+      "Opción C10",
+      "Opción D10"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #10, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #11",
+    "opciones": [
+      "Opción A11",
+      "Opción B11",
+      "Opción C11",
+      "Opción D11"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #11, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #12",
+    "opciones": [
+      "Opción A12",
+      "Opción B12",
+      "Opción C12",
+      "Opción D12"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #12, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #13",
+    "opciones": [
+      "Opción A13",
+      "Opción B13",
+      "Opción C13",
+      "Opción D13"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #13, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #14",
+    "opciones": [
+      "Opción A14",
+      "Opción B14",
+      "Opción C14",
+      "Opción D14"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #14, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #15",
+    "opciones": [
+      "Opción A15",
+      "Opción B15",
+      "Opción C15",
+      "Opción D15"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #15, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #16",
+    "opciones": [
+      "Opción A16",
+      "Opción B16",
+      "Opción C16",
+      "Opción D16"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #16, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #17",
+    "opciones": [
+      "Opción A17",
+      "Opción B17",
+      "Opción C17",
+      "Opción D17"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #17, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #18",
+    "opciones": [
+      "Opción A18",
+      "Opción B18",
+      "Opción C18",
+      "Opción D18"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #18, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #19",
+    "opciones": [
+      "Opción A19",
+      "Opción B19",
+      "Opción C19",
+      "Opción D19"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #19, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #20",
+    "opciones": [
+      "Opción A20",
+      "Opción B20",
+      "Opción C20",
+      "Opción D20"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #20, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #21",
+    "opciones": [
+      "Opción A21",
+      "Opción B21",
+      "Opción C21",
+      "Opción D21"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #21, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #22",
+    "opciones": [
+      "Opción A22",
+      "Opción B22",
+      "Opción C22",
+      "Opción D22"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #22, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #23",
+    "opciones": [
+      "Opción A23",
+      "Opción B23",
+      "Opción C23",
+      "Opción D23"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #23, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #24",
+    "opciones": [
+      "Opción A24",
+      "Opción B24",
+      "Opción C24",
+      "Opción D24"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #24, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #25",
+    "opciones": [
+      "Opción A25",
+      "Opción B25",
+      "Opción C25",
+      "Opción D25"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #25, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #26",
+    "opciones": [
+      "Opción A26",
+      "Opción B26",
+      "Opción C26",
+      "Opción D26"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #26, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #27",
+    "opciones": [
+      "Opción A27",
+      "Opción B27",
+      "Opción C27",
+      "Opción D27"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #27, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #28",
+    "opciones": [
+      "Opción A28",
+      "Opción B28",
+      "Opción C28",
+      "Opción D28"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #28, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #29",
+    "opciones": [
+      "Opción A29",
+      "Opción B29",
+      "Opción C29",
+      "Opción D29"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #29, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #30",
+    "opciones": [
+      "Opción A30",
+      "Opción B30",
+      "Opción C30",
+      "Opción D30"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #30, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #31",
+    "opciones": [
+      "Opción A31",
+      "Opción B31",
+      "Opción C31",
+      "Opción D31"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #31, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #32",
+    "opciones": [
+      "Opción A32",
+      "Opción B32",
+      "Opción C32",
+      "Opción D32"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #32, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #33",
+    "opciones": [
+      "Opción A33",
+      "Opción B33",
+      "Opción C33",
+      "Opción D33"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #33, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #34",
+    "opciones": [
+      "Opción A34",
+      "Opción B34",
+      "Opción C34",
+      "Opción D34"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #34, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #35",
+    "opciones": [
+      "Opción A35",
+      "Opción B35",
+      "Opción C35",
+      "Opción D35"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #35, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #36",
+    "opciones": [
+      "Opción A36",
+      "Opción B36",
+      "Opción C36",
+      "Opción D36"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #36, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #37",
+    "opciones": [
+      "Opción A37",
+      "Opción B37",
+      "Opción C37",
+      "Opción D37"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #37, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #38",
+    "opciones": [
+      "Opción A38",
+      "Opción B38",
+      "Opción C38",
+      "Opción D38"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #38, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #39",
+    "opciones": [
+      "Opción A39",
+      "Opción B39",
+      "Opción C39",
+      "Opción D39"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #39, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #40",
+    "opciones": [
+      "Opción A40",
+      "Opción B40",
+      "Opción C40",
+      "Opción D40"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #40, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #41",
+    "opciones": [
+      "Opción A41",
+      "Opción B41",
+      "Opción C41",
+      "Opción D41"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #41, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #42",
+    "opciones": [
+      "Opción A42",
+      "Opción B42",
+      "Opción C42",
+      "Opción D42"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #42, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #43",
+    "opciones": [
+      "Opción A43",
+      "Opción B43",
+      "Opción C43",
+      "Opción D43"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #43, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #44",
+    "opciones": [
+      "Opción A44",
+      "Opción B44",
+      "Opción C44",
+      "Opción D44"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #44, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #45",
+    "opciones": [
+      "Opción A45",
+      "Opción B45",
+      "Opción C45",
+      "Opción D45"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #45, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #46",
+    "opciones": [
+      "Opción A46",
+      "Opción B46",
+      "Opción C46",
+      "Opción D46"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #46, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #47",
+    "opciones": [
+      "Opción A47",
+      "Opción B47",
+      "Opción C47",
+      "Opción D47"
+    ],
+    "correcta": 3,
+    "explicacion": "Esta es una explicación simulada para la pregunta #47, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #48",
+    "opciones": [
+      "Opción A48",
+      "Opción B48",
+      "Opción C48",
+      "Opción D48"
+    ],
+    "correcta": 0,
+    "explicacion": "Esta es una explicación simulada para la pregunta #48, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #49",
+    "opciones": [
+      "Opción A49",
+      "Opción B49",
+      "Opción C49",
+      "Opción D49"
+    ],
+    "correcta": 1,
+    "explicacion": "Esta es una explicación simulada para la pregunta #49, que mezcla contenido específico y común de forma avanzada."
+  },
+  {
+    "pregunta": "Pregunta avanzada simulada #50",
+    "opciones": [
+      "Opción A50",
+      "Opción B50",
+      "Opción C50",
+      "Opción D50"
+    ],
+    "correcta": 2,
+    "explicacion": "Esta es una explicación simulada para la pregunta #50, que mezcla contenido específico y común de forma avanzada."
+  }
+]

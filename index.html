@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Celador SESPA - Selector de Test</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      background-color: #282c34;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
+    .container {
+      background: #3b3f4a;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+    h1 {
+      text-align: center;
+      color: #61dafb;
+      margin-bottom: 25px;
+    }
+    #presentacion, #quiz-container, #resultado, #resumenFallos {
+      display: none;
+    }
+    #presentacion.active, #quiz-container.active, #resultado.active, #resumenFallos.active {
+      display: block;
+    }
+    button {
+      background: #2196f3;
+      border: none;
+      color: white;
+      padding: 15px 25px;
+      font-size: 1.2em;
+      border-radius: 7px;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.3s;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #1976d2;
+    }
+    #timer {
+      text-align: right;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+    #pregunta {
+      font-size: 1.3em;
+      margin-bottom: 15px;
+    }
+    .opcion {
+      display: block;
+      margin: 8px 0;
+      padding: 12px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      border-radius: 5px;
+      background: #444;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .opcion:hover {
+      background: #555;
+    }
+    .correcta {
+      background-color: #4caf50 !important;
+    }
+    .incorrecta {
+      background-color: #f44336 !important;
+    }
+    #siguiente {
+      margin-top: 20px;
+      padding: 10px 15px;
+      width: 100%;
+      background: #2196f3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #siguiente:disabled {
+      background-color: #777;
+      cursor: not-allowed;
+    }
+    #siguiente:hover:enabled {
+      background: #1976d2;
+    }
+    #resultado {
+      font-size: 1.1em;
+      margin-top: 20px;
+      color: #ffd54f;
+    }
+    #resumenFallos {
+      margin-top: 20px;
+      background: #222c;
+      padding: 15px;
+      border-radius: 8px;
+      max-height: 400px;
+      overflow-y: auto;
+      color: #eee;
+    }
+
+    #estadisticas {
+  margin-top: 20px;
+  background: #2b2f3b;
+  padding: 15px;
+  border-radius: 8px;
+  color: #e0e0e0;
+}
+#estadisticas ul {
+  list-style-type: none;
+  padding: 0;
+}
+#estadisticas li {
+  margin: 6px 0;
+}
+
+    .falloPregunta {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 10px;
+    }
+    .falloPregunta h3 {
+      margin: 0 0 5px 0;
+      color: #f44336;
+    }
+    .falloPregunta p {
+      margin: 3px 0;
+    }
+    .falloRespuestaCorrecta {
+      color: #4caf50;
+      font-weight: bold;
+    }
+    label, select {
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    select {
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Test Celador SESPA</h1>
+
+    <div id="presentacion" class="active">
+      <p>Bienvenido al simulador de test para la oposición de Celador del SESPA.</p>
+      <p>Elige un test y pulsa "Iniciar Test" para comenzar.</p>
+
+      <label for="selectorTest">Selecciona test:</label>
+      <select id="selectorTest">
+        <option value="preguntas1.json">Test 1 - Preguntas básicas</option>
+        <option value="preguntas2.json">Test 2 - Preguntas avanzadas</option>
+        <option value="preguntas3.json">Test 3 - Repaso general</option>
+      </select>
+
+      <button id="btnIniciar" disabled>Iniciar Test</button>
+    </div>
+
+    <div id="quiz-container">
+      <div id="timer">Tiempo: <span id="tiempo">10</span>s</div>
+      <div id="pregunta"></div>
+      <div id="opciones"></div>
+      <button id="siguiente" disabled>Siguiente</button>
+    </div>
+
+    <div id="resultado"></div>
+     <div id="estadisticas"></div>
+    <div id="resumenFallos"></div>
+   
+
+  </div>
+
+  <script>
+    let preguntas = [];
+    let preguntaActual = 0;
+    let puntuacion = 0;
+    let temporizador;
+    let tiempoRestante = 60;
+    const preguntasFalladas = [];
+    let tiempoInicioTest = 0;
+    let tiempoFinTest = 0;
+
+
+    const btnIniciar = document.getElementById('btnIniciar');
+    const selectorTest = document.getElementById('selectorTest');
+    const presentacion = document.getElementById('presentacion');
+    const quizContainer = document.getElementById('quiz-container');
+    const preguntaElem = document.getElementById("pregunta");
+    const opcionesElem = document.getElementById("opciones");
+    const resultadoElem = document.getElementById("resultado");
+    const resumenFallosElem = document.getElementById("resumenFallos");
+    const btnSiguiente = document.getElementById("siguiente");
+    const tiempoElem = document.getElementById("tiempo");
+
+    // Habilitar botón solo cuando se elige test
+    selectorTest.addEventListener('change', () => {
+      btnIniciar.disabled = selectorTest.value === "";
+    });
+
+    btnIniciar.addEventListener('click', () => {
+      presentacion.classList.remove('active');
+      quizContainer.classList.add('active');
+      cargarPreguntas(selectorTest.value);
+    });
+
+    function cargarPreguntas(archivoJson) {
+      fetch(archivoJson)
+        .then(res => res.json())
+        .then(data => {
+          preguntas = data;
+          iniciarTest();
+        })
+        .catch(err => {
+          preguntaElem.textContent = 'Error cargando preguntas.';
+          console.error(err);
+        });
+    }
+
+    function iniciarTest() {
+      preguntaActual = 0;
+      puntuacion = 0;
+      preguntasFalladas.length = 0;
+      resultadoElem.innerHTML = '';
+      resultadoElem.classList.remove('active');
+      resumenFallosElem.innerHTML = '';
+      resumenFallosElem.classList.remove('active');
+      tiempoInicioTest = performance.now(); // marca inicio del test
+      cargarPregunta();
+    }
+
+    function iniciarTemporizador() {
+      tiempoRestante = 60;
+      tiempoElem.textContent = tiempoRestante;
+      temporizador = setInterval(() => {
+        tiempoRestante--;
+        tiempoElem.textContent = tiempoRestante;
+        if (tiempoRestante <= 0) {
+          clearInterval(temporizador);
+          bloquearOpciones();
+          btnSiguiente.disabled = false;
+        }
+      }, 1000);
+    }
+
+    function cargarPregunta() {
+      clearInterval(temporizador);
+      btnSiguiente.disabled = true;
+      const q = preguntas[preguntaActual];
+      preguntaElem.textContent = `Pregunta ${preguntaActual + 1}: ${q.pregunta}`;
+      opcionesElem.innerHTML = "";
+
+      q.opciones.forEach((opcion, index) => {
+        const btn = document.createElement("button");
+        btn.textContent = opcion;
+        btn.classList.add("opcion");
+        btn.addEventListener("click", () => seleccionarRespuesta(index, btn));
+        opcionesElem.appendChild(btn);
+      });
+
+      iniciarTemporizador();
+    }
+
+    function seleccionarRespuesta(index, botonSeleccionado) {
+      clearInterval(temporizador);
+      const correcta = preguntas[preguntaActual].correcta;
+      const botones = document.querySelectorAll(".opcion");
+
+      botones.forEach((btn, i) => {
+        btn.disabled = true;
+        if (i === correcta) btn.classList.add("correcta");
+        else if (btn === botonSeleccionado && i !== correcta) btn.classList.add("incorrecta");
+      });
+
+      if (index === correcta) {
+        puntuacion++;
+      } else {
+        preguntasFalladas.push({
+          numero: preguntaActual + 1,
+          pregunta: preguntas[preguntaActual].pregunta,
+          respuestaUsuario: preguntas[preguntaActual].opciones[index],
+          respuestaCorrecta: preguntas[preguntaActual].opciones[correcta],
+          explicacion: preguntas[preguntaActual].explicacion || "No hay explicación disponible."
+        });
+      }
+      btnSiguiente.disabled = false;
+    }
+
+    function bloquearOpciones() {
+      const correcta = preguntas[preguntaActual].correcta;
+      const botones = document.querySelectorAll(".opcion");
+      botones.forEach((btn, i) => {
+        btn.disabled = true;
+        if (i === correcta) btn.classList.add("correcta");
+      });
+    }
+
+    btnSiguiente.addEventListener("click", () => {
+      preguntaActual++;
+      if (preguntaActual < preguntas.length) {
+        cargarPregunta();
+      } else {
+        mostrarResultado();
+      }
+    });
+
+    function mostrarResultado() {
+      quizContainer.classList.remove("active");
+      resultadoElem.classList.add("active");
+      resumenFallosElem.classList.add("active");
+
+      let mensaje = "";
+      if (puntuacion < 25) mensaje = "❌ Suspenso. Aún puedes mejorar.";
+      else if (puntuacion < 30) mensaje = "🟡 Aprobado justo. Refuerza conceptos clave.";
+      else if (puntuacion < 40) mensaje = "✅ Muy bien. ¡Sigue repasando para afianzar!";
+      else mensaje = "🏆 Excelente. Estás preparado para el examen.";
+
+      resultadoElem.innerHTML = `
+        <p>Has acertado <strong>${puntuacion}</strong> de <strong>${preguntas.length}</strong> preguntas.</p>
+        <p>${mensaje}</p>
+      `;
+
+      if (preguntasFalladas.length > 0) {
+        resumenFallosElem.innerHTML = `<h2>Resumen de preguntas falladas</h2>`;
+        preguntasFalladas.forEach(fallo => {
+          resumenFallosElem.innerHTML += `
+            <div class="falloPregunta">
+              <h3>Pregunta ${fallo.numero}:</h3>
+              <p>${fallo.pregunta}</p>
+              <p>Tu respuesta: <strong>${fallo.respuestaUsuario}</strong></p>
+              <p class="falloRespuestaCorrecta">Respuesta correcta: ${fallo.respuestaCorrecta}</p>
+              <p><em>Explicación:</em> ${fallo.explicacion}</p>
+            </div>
+          `;
+        });
+      }
+
+      tiempoFinTest = performance.now(); // marca fin del test
+const tiempoTotalSegundos = ((tiempoFinTest - tiempoInicioTest) / 1000).toFixed(2);
+const tiempoMedio = (tiempoTotalSegundos / preguntas.length).toFixed(2);
+const fallos = preguntas.length - puntuacion;
+const porcentaje = ((puntuacion / preguntas.length) * 100).toFixed(1);
+
+const estadisticasElem = document.getElementById("estadisticas");
+estadisticasElem.classList.add("active");
+estadisticasElem.innerHTML = `
+  <h2>📊 Estadísticas del test</h2>
+  <ul>
+    <li><strong>Aciertos:</strong> ${puntuacion}</li>
+    <li><strong>Fallos:</strong> ${fallos}</li>
+    <li><strong>Porcentaje de aciertos:</strong> ${porcentaje}%</li>
+    <li><strong>Tiempo total:</strong> ${tiempoTotalSegundos} segundos</li>
+    <li><strong>Tiempo medio por pregunta:</strong> ${tiempoMedio} segundos</li>
+  </ul>
+`;
+
+
+
+    }
+
+    // Inicializamos botón deshabilitado porque hay una opción por defecto
+    btnIniciar.disabled = false;
+  </script>
+</body>
+</html>

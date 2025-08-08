@@ -1,0 +1,356 @@
+[
+  {
+    "pregunta": "¿Cuál es el principio básico del Sistema Nacional de Salud?",
+    "opciones": ["Privatización", "Descentralización", "Coordinación militar", "Sólo atención especializada"],
+    "correcta": 1,
+    "explicacion": "El SNS se basa en la descentralización para acercar los servicios a la población."
+  },
+  {
+    "pregunta": "¿Qué ley regula la autonomía del paciente?",
+    "opciones": ["Ley 41/2002", "Ley 14/1986", "Ley 55/2003", "Ley 7/1985"],
+    "correcta": 0,
+    "explicacion": "La Ley 41/2002 regula los derechos y obligaciones en materia de autonomía del paciente."
+  },
+  {
+    "pregunta": "¿Qué documento recoge la información clínica del paciente?",
+    "opciones": ["Parte de incidencias", "Hoja de ingresos", "Historia clínica", "Factura sanitaria"],
+    "correcta": 2,
+    "explicacion": "La historia clínica contiene toda la información relevante sobre el estado y tratamiento del paciente."
+  },
+  {
+    "pregunta": "¿Cuál es el órgano que gestiona el SESPA?",
+    "opciones": ["Ministerio de Sanidad", "Gobierno de España", "Consejería de Salud del Principado", "OMS"],
+    "correcta": 2,
+    "explicacion": "El SESPA depende de la Consejería de Salud del Principado de Asturias."
+  },
+  {
+    "pregunta": "¿Qué función NO realiza el celador?",
+    "opciones": ["Acompañamiento de pacientes", "Control de accesos", "Administrar medicación", "Movilización en camilla"],
+    "correcta": 2,
+    "explicacion": "La administración de medicación es responsabilidad del personal sanitario, no del celador."
+  },
+  {
+    "pregunta": "¿Cuál es el nivel asistencial que ofrece atención más cercana al ciudadano?",
+    "opciones": ["Atención Primaria", "Atención Hospitalaria", "Atención Domiciliaria", "Emergencias"],
+    "correcta": 0,
+    "explicacion": "La Atención Primaria es el primer nivel de contacto con el sistema sanitario."
+  },
+  {
+    "pregunta": "¿Qué actitud debe tener el celador con el paciente?",
+    "opciones": ["Indiferente", "Empática", "Autoritaria", "Tensa"],
+    "correcta": 1,
+    "explicacion": "La empatía mejora la relación con el paciente y facilita su bienestar."
+  },
+  {
+    "pregunta": "¿Qué documento se debe entregar antes de una intervención médica?",
+    "opciones": ["Factura", "Informe de ingreso", "Consentimiento informado", "Carnet sanitario"],
+    "correcta": 2,
+    "explicacion": "El consentimiento informado asegura que el paciente entiende y acepta el procedimiento."
+  },
+  {
+    "pregunta": "¿Cuál es el contenido básico del Estatuto Marco?",
+    "opciones": ["Normas urbanísticas", "Derechos de trabajadores sanitarios", "Estudios clínicos", "Organización del ayuntamiento"],
+    "correcta": 1,
+    "explicacion": "El Estatuto Marco regula los derechos y deberes del personal estatutario sanitario."
+  },
+  {
+    "pregunta": "¿Qué derecho tiene el paciente según la Ley 41/2002?",
+    "opciones": ["Recibir visitas a cualquier hora", "Gratificación económica", "Autonomía y decisión informada", "Acceso a medicina privada"],
+    "correcta": 2,
+    "explicacion": "La Ley 41/2002 garantiza la autonomía y el derecho a decidir libremente al paciente."
+  },
+  {
+    "pregunta": "¿Qué tipo de residuos se consideran biosanitarios?",
+    "opciones": ["Papel de oficina", "Restos de comida", "Agujas y gasas con sangre", "Plásticos domésticos"],
+    "correcta": 2,
+    "explicacion": "Los residuos biosanitarios incluyen materiales contaminados con sangre o fluidos corporales."
+  },
+  {
+    "pregunta": "¿En qué situaciones puede intervenir un celador en el quirófano?",
+    "opciones": ["Siempre que lo desee", "Cuando se lo ordene el cirujano", "Nunca", "Cuando lo autorice el personal autorizado"],
+    "correcta": 3,
+    "explicacion": "El celador sólo puede intervenir en quirófano cuando el personal autorizado lo permite."
+  },
+  {
+    "pregunta": "¿Cómo debe actuar un celador ante una persona fallecida?",
+    "opciones": ["Trasladarla sin identificar", "Esperar indicaciones médicas", "Avisar a la policía", "Retirarla del centro por su cuenta"],
+    "correcta": 1,
+    "explicacion": "El celador debe esperar instrucciones del personal médico o de gestión para el traslado."
+  },
+  {
+    "pregunta": "¿Qué órgano aprueba el Estatuto de Autonomía del Principado de Asturias?",
+    "opciones": ["Congreso de los Diputados", "Parlamento Europeo", "Junta General del Principado", "Ministerio de Sanidad"],
+    "correcta": 0,
+    "explicacion": "El Congreso de los Diputados aprueba los Estatutos de Autonomía de las comunidades."
+  },
+  {
+    "pregunta": "¿Qué medida de higiene hospitalaria debe aplicar el celador con más frecuencia?",
+    "opciones": ["Uso de mascarilla", "Lavado de manos", "Desinfección de quirófanos", "Cambio de vendajes"],
+    "correcta": 1,
+    "explicacion": "El lavado de manos es la medida más eficaz para prevenir infecciones."
+  },
+  {
+    "pregunta": "¿Qué función realiza un celador en el servicio de urgencias?",
+    "opciones": ["Diagnosticar al paciente", "Realizar triaje", "Colaborar en movilización y traslado", "Emitir informes clínicos"],
+    "correcta": 2,
+    "explicacion": "El celador colabora en la movilización y traslado, pero no diagnostica."
+  },
+  {
+    "pregunta": "¿Cuántas áreas sanitarias hay en Asturias?",
+    "opciones": ["6", "8", "10", "12"],
+    "correcta": 1,
+    "explicacion": "Asturias está dividida en 8 áreas sanitarias para la organización sanitaria."
+  },
+  {
+    "pregunta": "¿Qué debe hacer el celador si un paciente se niega a ser trasladado?",
+    "opciones": ["Forzarlo físicamente", "Ignorarlo", "Avisar a enfermería o personal médico", "Abandonarlo"],
+    "correcta": 2,
+    "explicacion": "El celador debe informar a enfermería o al personal médico para gestionar la situación."
+  },
+  {
+    "pregunta": "¿En qué año se aprobó la Ley General de Sanidad?",
+    "opciones": ["2001", "1978", "1986", "1992"],
+    "correcta": 2,
+    "explicacion": "La Ley General de Sanidad se aprobó en 1986 y es la base del sistema sanitario español."
+  },
+  {
+    "pregunta": "¿Qué es la confidencialidad clínica?",
+    "opciones": ["Derecho del paciente a no hablar", "Obligación de silencio del personal sanitario", "No compartir datos personales sin autorización", "Evitar que el paciente hable en público"],
+    "correcta": 2,
+    "explicacion": "La confidencialidad implica proteger los datos personales y clínicos del paciente."
+  },
+  {
+    "pregunta": "¿Qué documento regula las relaciones laborales del personal estatutario?",
+    "opciones": ["Estatuto de los Trabajadores", "Constitución Española", "Estatuto Marco", "Ley General Tributaria"],
+    "correcta": 2,
+    "explicacion": "El Estatuto Marco regula los derechos y deberes laborales del personal estatutario."
+  },
+  {
+    "pregunta": "¿Qué significa la atención integral?",
+    "opciones": ["Atender sólo urgencias", "Atender cuerpo, mente y entorno del paciente", "Atender por partes", "Repartir tareas"],
+    "correcta": 1,
+    "explicacion": "La atención integral aborda todos los aspectos de la salud del paciente."
+  },
+  {
+    "pregunta": "¿Cómo se protege la intimidad del paciente?",
+    "opciones": ["Haciendo preguntas en voz alta", "Compartiendo datos clínicos con familiares", "Evitando exponerlo innecesariamente", "Permitiendo que cualquiera lo grabe"],
+    "correcta": 2,
+    "explicacion": "La intimidad se protege evitando exponer o compartir información innecesaria."
+  },
+  {
+    "pregunta": "¿Cuál es la función principal del Servicio de Admisión?",
+    "opciones": ["Cobrar servicios", "Acompañar a familiares", "Gestionar ingresos y documentación del paciente", "Transportar muestras"],
+    "correcta": 2,
+    "explicacion": "El servicio de admisión gestiona la documentación y el proceso de ingreso."
+  },
+  {
+    "pregunta": "¿Qué debe hacer el celador al observar un riesgo para la seguridad?",
+    "opciones": ["Ignorarlo", "Informar inmediatamente", "Buscar ayuda externa", "Resolverlo solo"],
+    "correcta": 1,
+    "explicacion": "El celador debe informar de inmediato para prevenir accidentes o daños."
+  },
+  {
+    "pregunta": "¿Cuál es el principio que garantiza que todos accedan por igual al sistema de salud?",
+    "opciones": ["Universalidad", "Competitividad", "Libre mercado", "Público-privado"],
+    "correcta": 0,
+    "explicacion": "La universalidad garantiza el acceso igualitario a todos los ciudadanos."
+  },
+  {
+    "pregunta": "¿Qué servicio se encarga de la limpieza hospitalaria?",
+    "opciones": ["Medicina preventiva", "Enfermería", "Celadores", "Servicios generales"],
+    "correcta": 3,
+    "explicacion": "Los servicios generales se encargan de la limpieza y mantenimiento."
+  },
+  {
+    "pregunta": "¿Qué profesional autoriza el ingreso hospitalario?",
+    "opciones": ["Celador", "Médico", "Administrador", "Auxiliar de enfermería"],
+    "correcta": 1,
+    "explicacion": "El ingreso lo autoriza un médico tras valorar la necesidad."
+  },
+  {
+    "pregunta": "¿Qué actitud favorece un buen clima laboral?",
+    "opciones": ["Críticas destructivas", "Empatía y respeto", "Individualismo", "Autoritarismo"],
+    "correcta": 1,
+    "explicacion": "La empatía y el respeto fomentan un ambiente positivo."
+  },
+  {
+    "pregunta": "¿Cuál es la función del celador en el traslado interno?",
+    "opciones": ["Desconectar máquinas", "Revisar diagnóstico", "Coordinar con enfermería", "Emitir alta médica"],
+    "correcta": 2,
+    "explicacion": "El celador coordina con enfermería para asegurar un traslado seguro."
+  },
+  {
+    "pregunta": "¿Qué se debe hacer antes de trasladar un paciente encamado?",
+    "opciones": ["Avisar al celador jefe", "Informar al médico de guardia", "Comprobar cables, vías y dispositivos", "Pedir consentimiento escrito"],
+    "correcta": 2,
+    "explicacion": "Es vital verificar que no haya cables o dispositivos que puedan sufrir daño."
+  },
+  {
+    "pregunta": "¿Qué ley regula los derechos y deberes en materia de salud en Asturias?",
+    "opciones": ["Ley 41/2002", "Ley del Principado 7/2019", "Ley General de Sanidad", "Estatuto Marco"],
+    "correcta": 1,
+    "explicacion": "La Ley 7/2019 del Principado regula derechos y deberes sanitarios en Asturias."
+  },
+  {
+    "pregunta": "¿Cuál es el principal valor del trato con el paciente?",
+    "opciones": ["Rapidez", "Disciplina", "Humanización", "Normativa"],
+    "correcta": 2,
+    "explicacion": "La humanización es clave para una atención de calidad y respeto."
+  },
+  {
+    "pregunta": "¿A quién debe informar el celador si detecta un error en la documentación de un paciente?",
+    "opciones": ["A otro paciente", "A su compañero celador", "A enfermería o administración", "A limpieza"],
+    "correcta": 2,
+    "explicacion": "Los errores deben ser comunicados al personal adecuado para corregirlos."
+  },
+  {
+    "pregunta": "¿Qué documento regula los derechos y deberes de los funcionarios públicos?",
+    "opciones": ["Ley 39/2015", "Estatuto Básico del Empleado Público", "Estatuto Marco", "Reglamento de Régimen Interno"],
+    "correcta": 1,
+    "explicacion": "El Estatuto Básico del Empleado Público regula los derechos laborales."
+  },
+  {
+    "pregunta": "¿Qué actitud debe tener el celador con los familiares del paciente?",
+    "opciones": ["Hostil", "Distante", "Empática y clara", "Pasiva"],
+    "correcta": 2,
+    "explicacion": "Una actitud empática y clara mejora la comunicación y confianza."
+  },
+  {
+    "pregunta": "¿Qué principio rige la actuación del personal del SESPA?",
+    "opciones": ["Autoridad", "Confidencialidad", "Privatización", "Publicidad"],
+    "correcta": 1,
+    "explicacion": "La confidencialidad protege la información sensible del paciente."
+  },
+  {
+    "pregunta": "¿Qué órgano coordina el Sistema Nacional de Salud?",
+    "opciones": ["Ministerio de Defensa", "Consejo Interterritorial", "Junta General", "Ayuntamiento"],
+    "correcta": 1,
+    "explicacion": "El Consejo Interterritorial coordina las políticas sanitarias en España."
+  },
+  {
+    "pregunta": "¿Cuál es la principal función del celador en quirófano?",
+    "opciones": ["Suturar heridas", "Ayudar en labores no clínicas", "Repartir comida", "Emitir diagnósticos"],
+    "correcta": 1,
+    "explicacion": "El celador asiste en tareas no clínicas dentro del quirófano."
+  },
+  {
+    "pregunta": "¿Qué significa confidencialidad en el entorno sanitario?",
+    "opciones": ["Esconder información al paciente", "No compartir datos sin autorización", "No anotar diagnósticos", "Ocultar informes"],
+    "correcta": 1,
+    "explicacion": "La confidencialidad evita compartir datos sin consentimiento."
+  },
+  {
+    "pregunta": "¿Qué actitud debe tener el celador con un paciente agitado?",
+    "opciones": ["Gritarle", "Evitar contacto", "Avisar a personal médico", "Retenerlo por la fuerza solo"],
+    "correcta": 2,
+    "explicacion": "Ante pacientes agitados se debe avisar al personal médico para evitar riesgos."
+  },
+  {
+    "pregunta": "¿A quién debe obedecer el celador en su trabajo diario?",
+    "opciones": ["Al paciente", "Al director del hospital", "A los mandos intermedios y superiores", "A sí mismo"],
+    "correcta": 2,
+    "explicacion": "El celador responde a sus superiores y al protocolo establecido."
+  },
+  {
+    "pregunta": "¿Qué medida preventiva ayuda a evitar infecciones hospitalarias?",
+    "opciones": ["Ventilar quirófano", "Limpieza periódica", "No usar guantes", "Cerrar ventanas"],
+    "correcta": 1,
+    "explicacion": "La limpieza periódica reduce el riesgo de infecciones nosocomiales."
+  },
+  {
+    "pregunta": "¿Qué zona del hospital usa más servicios de celador?",
+    "opciones": ["Oficinas", "Administración", "Urgencias y quirófano", "Cafetería"],
+    "correcta": 2,
+    "explicacion": "Urgencias y quirófano son las áreas donde el celador tiene más tareas."
+  },
+  {
+    "pregunta": "¿Qué hacer ante una caída de un paciente en pasillo?",
+    "opciones": ["Ignorarlo", "Llamar a seguridad", "Auxiliarlo y avisar a enfermería", "Moverlo rápidamente sin revisar"],
+    "correcta": 2,
+    "explicacion": "Se debe ayudar al paciente y avisar al personal sanitario."
+  },
+  {
+    "pregunta": "¿Qué herramienta legal protege a los trabajadores frente a riesgos?",
+    "opciones": ["Reglamento UE", "Ley de Prevención de Riesgos Laborales", "Estatuto de Gijón", "Convenio de limpieza"],
+    "correcta": 1,
+    "explicacion": "La Ley de Prevención de Riesgos protege a los trabajadores en su entorno."
+  },
+  {
+    "pregunta": "¿Cómo se debe actuar al mover un paciente en silla de ruedas?",
+    "opciones": ["Correr para llegar antes", "Empujarlo sin frenos", "Usar cinturón si es necesario y controlar frenos", "Dejarlo solo"],
+    "correcta": 2,
+    "explicacion": "El uso correcto de cinturón y frenos evita accidentes."
+  },
+  {
+    "pregunta": "¿Qué debe evitarse en el trato al paciente?",
+    "opciones": ["Lenguaje amable", "Juicios de valor", "Respeto", "Empatía"],
+    "correcta": 1,
+    "explicacion": "Los juicios de valor dañan la relación con el paciente."
+  },
+  {
+    "pregunta": "¿Qué significa movilidad funcional?",
+    "opciones": ["Traslado de pacientes", "Cambio de puesto dentro del servicio", "Ascenso automático", "Baja temporal"],
+    "correcta": 0,
+    "explicacion": "La movilidad funcional es el traslado seguro y adecuado del paciente."
+  },
+  {
+    "pregunta": "¿Qué organismo controla la calidad sanitaria en Asturias?",
+    "opciones": ["SESPA", "Ministerio de Sanidad", "OMS", "Consejería de Salud"],
+    "correcta": 0,
+    "explicacion": "El SESPA es responsable del control y calidad sanitaria en Asturias."
+  },
+  {
+    "pregunta": "¿Cuál es el documento que recoge el reglamento interno para celadores?",
+    "opciones": ["Ley 7/1985", "Manual de procedimiento", "Estatuto Marco", "Protocolo de hospital"],
+    "correcta": 2,
+    "explicacion": "El Estatuto Marco incluye normas internas para el personal estatutario."
+  },
+  {
+    "pregunta": "¿Qué significa atención centrada en el paciente?",
+    "opciones": ["Atender rápido", "Escuchar sus necesidades y respetar su dignidad", "Priorizar eficiencia", "Reducir costos"],
+    "correcta": 1,
+    "explicacion": "La atención centrada en el paciente se basa en el respeto y personalización."
+  },
+  {
+    "pregunta": "¿Qué se entiende por urgencias sanitarias?",
+    "opciones": ["Situaciones programadas", "Problemas de salud que requieren atención inmediata", "Consultas rutinarias", "Administración de medicinas"],
+    "correcta": 1,
+    "explicacion": "Las urgencias requieren atención rápida para evitar daños mayores."
+  },
+  {
+    "pregunta": "¿Qué se debe hacer si un paciente presenta signos de agresividad?",
+    "opciones": ["Ignorar", "Provocar respuesta", "Avisar a personal médico y seguridad", "Retener sin ayuda"],
+    "correcta": 2,
+    "explicacion": "La seguridad es prioritaria y se debe pedir ayuda especializada."
+  },
+  {
+    "pregunta": "¿Qué documento regula el derecho a la protección de datos personales?",
+    "opciones": ["RGPD", "Ley 41/2002", "Ley de Prevención", "Estatuto Marco"],
+    "correcta": 0,
+    "explicacion": "El Reglamento General de Protección de Datos protege la privacidad del paciente."
+  },
+  {
+    "pregunta": "¿Qué es el consentimiento informado?",
+    "opciones": ["Aceptación sin información", "Decisión consciente tras recibir información", "Firma sin leer", "Documento administrativo"],
+    "correcta": 1,
+    "explicacion": "El consentimiento informado implica que el paciente decide con toda la información necesaria."
+  },
+  {
+    "pregunta": "¿Qué papel tiene el celador en el transporte de material sanitario?",
+    "opciones": ["Administrar medicamentos", "Transportar y custodiar", "Diagnosticar patologías", "Realizar tratamientos"],
+    "correcta": 1,
+    "explicacion": "El celador transporta materiales siguiendo los protocolos, sin administrar medicación."
+  },
+  {
+    "pregunta": "¿Qué debe hacer el celador ante un incendio?",
+    "opciones": ["Intentar apagar sin avisar", "Evacuar y avisar a seguridad", "Ignorar", "Usar ascensor"],
+    "correcta": 1,
+    "explicacion": "La prioridad es evacuar a las personas y avisar a los equipos de seguridad."
+  },
+  {
+    "pregunta": "¿Qué es la humanización en la atención sanitaria?",
+    "opciones": ["Solo dar medicinas", "Atención con respeto y empatía", "Atender rápido sin contacto", "Reducir tiempos"],
+    "correcta": 1,
+    "explicacion": "Humanizar la atención implica tratar a las personas con dignidad y empatía."
+  }
+]
